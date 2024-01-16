@@ -490,7 +490,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 /*** Navigation ***/
 .home-details-container {
   @media (max-width: 991px) {
-    height: 100vh;
+    height: 80vh;
   }
 }
 .header {
@@ -1839,13 +1839,13 @@ body.light .contact .custom-span-contact a {
     content: "";
     top: 0px;
     left: 0px;
-    background-color: #222;
+    background-color: none;
     z-index: 4;
   }
 }
 body.light .tab-panel_list > div {
   &::after {
-    background-color: #eee;
+    background-color: none;
   }
 }
 
