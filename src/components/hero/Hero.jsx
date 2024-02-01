@@ -11,7 +11,7 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Kevin Edwards",
   heroDesignation: "web designer",
-  heroDescriptions: `I'm a motivated web developer who is enthusiastic and diligent with a strong work ethic. Previous professional work experience and academic training in design and marketing.`,
+  heroDescriptions: `A motivated web developer with freelance and professional experience developing stores to help drive traffic and sales through design and marketing.`,
   heroBtn: "more about me",
 };
 

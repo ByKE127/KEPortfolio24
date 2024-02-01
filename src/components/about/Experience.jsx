@@ -2,17 +2,17 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   06/2022 - Present",
-    position: " Web Designer/Digital Content Admin",
+    year: "06/2022 - Present",
+    position: "Web Designer/Digital Content Admin",
     compnayName: "Todd Snyder NY",
-    details: `• Manage the online store and created new templates in Liquid.\n
-    • Aid the design of wireframes for email/web pages in Figma.\n
-    • Partner with marketing to test conversion rates using the Google Suite.\n
+    details: `• Manage the online store and created new templates in Liquid. 
+    • Aid the design of wireframes for email/web pages in Figma.
+    • Partner with marketing to test conversion rates using the Google Suite.
     • Troubleshoot bugs across applications and on site.`,
   },
   {
     year: "6/2021 - 4/2022",
-    position: " Front End Developer",
+    position: "Front End Developer",
     compnayName: "My.Suit NY (Contract)",
     details: `• Designed new pages seamlessly into the front-end and back-end of their website using HTML, CSS, and Javascript.
     • Created newsletter articles to send out to customers.
@@ -32,21 +32,17 @@ const experienceContent = [
     year: "1/2020 - 3/2020",
     position: "Digital Media Coordinator Internship",
     compnayName: "AboveMAX Basketball",
-    details: `• Created content and managed all social media platforms for the 
-    company.
+    details: `• Created content and managed all social media platforms for the company.
     • Monitored analytical data and engagement rates.
     • Used HootSuite to schedule post across social media platforms.
-    • Managed the WordPress eCommerce store and scheduling for team 
-practices.`,
+    • Managed the WordPress eCommerce store and scheduling for team practices.`,
   },
   {
     year: "9/2019 - 12/2019",
     position: "Communications/Marketing Internship",
     compnayName: "Ramapo Athletics",
-    details: `• Designed and monitored social media posts for the college’s 
-    athletics program.
-    • Worked efectively with team members to drive trafc to the 
-sporting events.`,
+    details: `• Designed and monitored social media posts for the college’s athletics program.
+    • Worked effectively with team members to drive traffic to the sporting events.`,
   },
 ];
 
@@ -63,7 +59,7 @@ const Experience = () => {
             {val.position}
             <span className="place open-sans-font">{val.compnayName}</span>
           </h5>
-          <p className="open-sans-font">{val.details}</p>
+          <p className="open-sans-font" style={{ whiteSpace: 'pre-line' }}>{val.details}</p>
         </li>
       ))}
     </ul>
