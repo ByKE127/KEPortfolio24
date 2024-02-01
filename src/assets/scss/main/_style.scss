@@ -43,6 +43,9 @@ Version: 1.0
 
 /*** Miscellaneous ***/
 
+.css-fix {
+  white-space: pre-wrap; /* or pre-line */
+}
 html {
   overflow-x: hidden;
   height: 100%;
@@ -490,7 +493,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 /*** Navigation ***/
 .home-details-container {
   @media (max-width: 991px) {
-    height: 60vh;
+    height: 80vh;
   }
 }
 .header {
