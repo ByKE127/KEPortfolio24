@@ -5,12 +5,13 @@ const skillsContent = [
   { skillClass: "p100", skillPercent: "100", skillName: "CSS" },
   { skillClass: "p85", skillPercent: "85", skillName: "JAVASCRIPT" },
   { skillClass: "p80", skillPercent: "80", skillName: "REACTJS" },
-  { skillClass: "p95", skillPercent: "95", skillName: "GOOGLE ANALYTICS" },
+  { skillClass: "p95", skillPercent: "95", skillName: "SEO" },
   { skillClass: "p90", skillPercent: "90", skillName: "ADOBE CREATIVE SUITE" },
   { skillClass: "p100", skillPercent: "100", skillName: "FIGMA" },
-  { skillClass: "p80", skillPercent: "80", skillName: "SEO" },
+  { skillClass: "p80", skillPercent: "80", skillName: "GOOGLE ANALYTICS" },
   { skillClass: "p100", skillPercent: "100", skillName: "EMAIL MARKETING" },
-  { skillClass: "p96", skillPercent: "96", skillName: "SHOPIFY" },
+  { skillClass: "p100", skillPercent: "100", skillName: "SHOPIFY" },
+  { skillClass: "p100", skillPercent: "100", skillName: "WORDPRESS" },
 ];
 
 const Skills = () => {
