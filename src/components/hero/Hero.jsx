@@ -10,7 +10,7 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "Kevin Edwards",
-  heroDesignation: "web designer",
+  heroDesignation: "Web/Graphic Designer",
   heroDescriptions: `A motivated web developer with freelance and professional experience developing stores to help drive traffic and sales through design and marketing.`,
   heroBtn: "more about me",
 };

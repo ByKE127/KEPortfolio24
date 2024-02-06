@@ -104,7 +104,7 @@ const HomeDark = () => {
                 {/*  Left Side Starts */}
                 <div className="col-12 col-lg-4">
                   <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
-                    Don't be shy !
+                    Let's Work!
                   </h3>
                   <p className="open-sans-font mb-4">
                     Feel free to get in touch with me. I am always open to
