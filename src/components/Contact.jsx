@@ -81,7 +81,7 @@ const Contact = () => {
             <div className="form-group">
               <textarea
                 name="message"
-                placeholder="YOUR MESSAGE"
+                placeholder="YOUR MESSAGE (PLEASE BE AS DESCRIPTIVE AS POSSIBLE)"
                 required
               ></textarea>
             </div>
