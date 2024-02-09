@@ -11,7 +11,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_a9vq3nr",
-        "template_b26zqoi",
+        "template_wjxgzzh",
         form.current,
         "user_KXTFKAbDzEUNrI4ID"
       )
@@ -81,7 +81,7 @@ const Contact = () => {
             <div className="form-group">
               <textarea
                 name="message"
-                placeholder="YOUR MESSAGE (PLEASE BE AS DESCRIPTIVE AS POSSIBLE)"
+                placeholder="YOUR MESSAGE"
                 required
               ></textarea>
             </div>
