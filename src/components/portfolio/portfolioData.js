@@ -9,6 +9,7 @@ import Image8 from "../../assets/img/portfolio/MySuitOrderStatus.jpg";
 import Image9 from "../../assets/img/portfolio/KreatineKreations.jpg";
 import Image10 from "../../assets/img/portfolio/weekschedulemock.png";
 import Image11 from "../../assets/img/portfolio/RRentals.jpg";
+import Image12 from "../../assets/img/portfolio/MemoCrewLogo.jpg";
 
 const PortfolioData = [
   {
@@ -150,6 +151,21 @@ const PortfolioData = [
     id: 11,
     type: "graphic design",
     image: Image11,
+    tag: ["graphic design", "logo"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Graphic Design",
+        client: "Freelance",
+        program: "Adobe Illustrator",
+        language: "HTML, CSS, Javascript",
+      },
+    ],
+  },
+  {
+    id: 12,
+    type: "graphic design",
+    image: Image12,
     tag: ["graphic design", "logo"],
     delayAnimation: "200",
     modalDetails: [
