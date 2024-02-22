@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import heroImg from "../../assets/img/hero/dark.jpg";
-import heroImgMobile from "../../assets/img/portfolio/KevinBlkonBlkNoEarring1x1.jpg";
+import heroImgMobile from "../../assets/img/portfolio/KevBlkonBlkNoHatEdit.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
-import backgroundImage from "../../assets/img/portfolio/KevinBlkonBlk746x1020.jpg";
+import backgroundImage from "../../assets/img/portfolio/KevBlkonBlkNoHatEdit.jpg";
 
 const heroContent = {
   heroImage: heroImg,
