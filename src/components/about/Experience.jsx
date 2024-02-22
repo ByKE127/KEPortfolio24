@@ -8,7 +8,9 @@ const experienceContent = [
     details: `• Manage the online store and created new templates in Liquid. 
     • Aid the design of wireframes for email/web pages in Figma.
     • Partner with marketing to test conversion rates using the Google Suite.
-    • Troubleshoot bugs across applications and on site.`,
+    • Troubleshoot bugs across applications and on site.
+    • Helped drive the start up of Made-to-Measure bookings.
+    • Strictly follow American Eagle/Todd Snyder WCAG Guidelines.`,
   },
   {
     year: "6/2021 - 4/2022",

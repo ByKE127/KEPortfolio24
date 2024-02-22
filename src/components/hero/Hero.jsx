@@ -4,7 +4,7 @@ import heroImg from "../../assets/img/hero/dark.jpg";
 import heroImgMobile from "../../assets/img/portfolio/KevBlkonBlkNoHatEdit1x1.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
-import backgroundImage from "../../assets/img/portfolio/KevBlkonBlkNoHatEdit.jpg";
+import backgroundImage from "../../assets/img/portfolio/KevBlkonBlkNoHatEditCompressed.jpg";
 
 const heroContent = {
   heroImage: heroImg,
