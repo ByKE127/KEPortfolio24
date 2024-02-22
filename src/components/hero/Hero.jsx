@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import heroImg from "../../assets/img/hero/dark.jpg";
-import heroImgMobile from "../../assets/img/portfolio/KevBlkonBlkNoHatEdit.jpg";
+import heroImgMobile from "../../assets/img/portfolio/KevBlkonBlkNoHatEdit1x1.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 import backgroundImage from "../../assets/img/portfolio/KevBlkonBlkNoHatEdit.jpg";
@@ -11,7 +11,7 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Kevin Edwards",
   heroDesignation: "Web/Graphic Designer",
-  heroDescriptions: `I am a motivated designer with freelance and professional experience in developing websites to helping them drive traffic and sales through design and marketing.`,
+  heroDescriptions: `I am a motivated designer with freelance and professional experience in developing websites to help drive traffic and sales through design and marketing.`,
   heroBtn: "more about me",
 };
 

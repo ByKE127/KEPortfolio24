@@ -4,8 +4,8 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import cv from "../../assets/img/portfolio/Kevin1023Resume11Compressed2.jpg";
-import heroImgMobile from "../../assets/img/portfolio/KevinBlkonBlkNoEarring1x1.jpg";
+import cv from "../../assets/img/portfolio/0224KevinEResume.jpg";
+import heroImgMobile from "../../assets/img/portfolio/KevBlkonBlkNoHatEdit1x1.jpg";
 
 const index = () => {
   return (
