@@ -11,7 +11,7 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Kevin Edwards",
   heroDesignation: "Web/Graphic Designer",
-  heroDescriptions: `I am a motivated designer with freelance and professional experience in developing websites to help drive traffic and sales through design and marketing.`,
+  heroDescriptions: `Passionate designer with a proven track record in crafting compelling websites that enhance traffic and drive sales through a seamless blend of design and marketing strategies. Possessing a Bachelor's degree in Design & Marketing, I bring a unique blend of creativity and strategic insight to every project, whether in a freelance or professional setting.`,
   heroBtn: "more about me",
 };
 
