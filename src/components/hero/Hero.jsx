@@ -9,9 +9,9 @@ import backgroundImage from "../../assets/img/portfolio/KevBlkonBlkNoHatEditComp
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
-  heroTitleName: "Kevin Edwards",
+  heroTitleName: "Kevin",
   heroDesignation: "Web/Graphic Designer",
-  heroDescriptions: `Passionate designer with a proven track record in crafting compelling websites that enhance traffic and drive sales through a seamless blend of design and marketing strategies. Possessing a Bachelor's degree in Design & Marketing, I bring a unique blend of creativity and strategic insight to every project, whether in a freelance or professional setting.`,
+  heroDescriptions: `Passionate designer with a proven track record in building compelling websites that amplify traffic and drive sales through a blend of design and marketing strategies. Possessing a Bachelor's degree in Design & Marketing, I bring a mix of creativity and strategic insight to every project, whether in a freelance or professional setting.`,
   heroBtn: "more about me",
 };
 
