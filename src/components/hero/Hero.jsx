@@ -11,7 +11,7 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Kevin",
   heroDesignation: "Web/Graphic Designer",
-  heroDescriptions: `Passionate designer with a proven track record in building compelling websites that amplify traffic and drive sales through a blend of design and marketing strategies. Possessing a Bachelor's degree in Design & Marketing, I bring a mix of creativity and strategic insight to every project, whether in a freelance or professional setting.`,
+  heroDescriptions: `Passionate designer with a proven track record in building websites that amplify traffic and drive sales through a blend of design and marketing strategies. Possessing a Bachelor's degree in Design & Marketing, I bring a mix of creativity and strategic insight to every project, whether in a freelance or professional setting.`,
   heroBtn: "more about me",
 };
 
