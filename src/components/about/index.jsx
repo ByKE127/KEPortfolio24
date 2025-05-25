@@ -4,7 +4,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import cv from "../../assets/img/portfolio/0224KevinEResume.jpg";
+import cv from "../../assets/img/portfolio/KevinEEResume525.jpg";
 import heroImgMobile from "../../assets/img/portfolio/KevBlkonBlkNoHatEdit1x1.jpg";
 
 const index = () => {
@@ -58,7 +58,7 @@ const index = () => {
 
         <hr className="separator" />
 
-        {/* Skills Starts */}
+        {/* Skills Starts (HIDDEN) *
         <div className="row">
           <div className="col-12">
             <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">
@@ -67,7 +67,7 @@ const index = () => {
           </div>
           <Skills />
         </div>
-        {/* Skills Ends */}
+        {/* Skills Ends (HIDDEN) */}
 
         <hr className="separator mt-1" />
 
