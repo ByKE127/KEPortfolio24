@@ -10,10 +10,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_a9vq3nr",
-        "template_7qcu6wu",
+        "service_ygk99gx",
+        "template_3uvw58f",
         form.current,
-        "user_KXTFKAbDzEUNrI4ID"
+        "KXTFKAbDzEUNrI4ID"
       )
       .then(
         (result) => {
@@ -29,6 +29,7 @@ const Contact = () => {
           document.getElementById("myForm").reset();
         },
         (error) => {
+          console.error("EmailJS Error:", error);
           toast.error("Ops Message Not Sent!", {
             position: "top-right",
             autoClose: 2000,
@@ -48,7 +49,7 @@ const Contact = () => {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <input type="text" name="name" placeholder="YOUR NAME" required />
+              <input type="text" name="name" placeholder="Your name" required />
             </div>
           </div>
           {/* End .col */}
@@ -58,7 +59,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="user_email"
-                placeholder="YOUR EMAIL"
+                placeholder="Your email address"
                 required
               />
             </div>
@@ -70,7 +71,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="subject"
-                placeholder="YOUR SUBJECT"
+                placeholder="Your subject"
                 required
               />
             </div>
@@ -81,7 +82,7 @@ const Contact = () => {
             <div className="form-group">
               <textarea
                 name="message"
-                placeholder="YOUR MESSAGE"
+                placeholder="Details about your project"
                 required
               ></textarea>
             </div>
