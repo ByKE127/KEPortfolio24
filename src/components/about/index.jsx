@@ -69,7 +69,7 @@ const index = () => {
         </div>
         {/* Skills Ends (HIDDEN) */}
 
-        <hr className="separator mt-1" />
+        
 
         {/* Experience & Education Starts */}
         <div className="row">
