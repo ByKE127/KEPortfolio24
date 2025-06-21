@@ -15,6 +15,7 @@ import Image14 from "../../assets/img/portfolio/break.jpg";
 import Image15 from "../../assets/img/portfolio/TSSperry.jpg";
 import Image16 from "../../assets/img/portfolio/MySuitBookApp.jpg";
 import Image17 from "../../assets/img/portfolio/DenimShopFilterSlider.jpg";
+import Image18 from "../../assets/img/portfolio/TSNHLFanaticsv2.jpg";
 
 const PortfolioData = [
   {
@@ -58,6 +59,22 @@ const PortfolioData = [
         project: "Logo Design",
         client: "Freelance",
         program: " Adobe Illustrator",
+      },
+    ],
+  },
+  {
+    id: 18,
+    type: "Web Design",
+    image: Image18,
+    tag: ["web design"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Fanatics NHL Launch",
+        client: "Todd Snyder",
+        language: " HTML, CSS, Shopify",
+        preview: "Fanatics for NHL",
+        link: "https://www.toddsnyder.com/collections/todd-snyder-by-fanatics-nhl",
       },
     ],
   },
