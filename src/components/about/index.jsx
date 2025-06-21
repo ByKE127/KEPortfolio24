@@ -69,8 +69,6 @@ const index = () => {
         </div>
         {/* Skills Ends (HIDDEN) */}
 
-        
-
         {/* Experience & Education Starts */}
         <div className="row">
           <div className="col-12">

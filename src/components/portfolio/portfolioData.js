@@ -1,16 +1,20 @@
-import Image1 from "../../assets/img/portfolio/NJPCrop3.jpg";
+import Image1 from "../../assets/img/portfolio/LAPTOPNJPv3.jpg";
 import Image2 from "../../assets/img/portfolio/KroteinBar.jpg";
 import Image3 from "../../assets/img/portfolio/ToddSnyderGalSlider.jpg";
 import Image4 from "../../assets/img/portfolio/KWDLogo.jpg";
 import Image5 from "../../assets/img/portfolio/MySuitCustomerLogin.jpg";
 import Image6 from "../../assets/img/portfolio/CharksDPOY2.jpg";
-import Image7 from "../../assets/img/portfolio/AFWCrop.jpg";
-import Image8 from "../../assets/img/portfolio/MySuitOrderStatus.jpg";
+import Image7 from "../../assets/img/portfolio/Macbook-MockupAFWv3.jpg";
+import Image8 from "../../assets/img/portfolio/MySuitOrderStatusv2.jpg";
 import Image9 from "../../assets/img/portfolio/KreatineKreations.jpg";
 import Image10 from "../../assets/img/portfolio/weekschedulemock.png";
 import Image11 from "../../assets/img/portfolio/RRentals.jpg";
 import Image12 from "../../assets/img/portfolio/MemoCrewLogo.jpg";
 import Image13 from "../../assets/img/portfolio/NikeBusStop.jpg";
+import Image14 from "../../assets/img/portfolio/break.jpg";
+import Image15 from "../../assets/img/portfolio/TSSperry.jpg";
+import Image16 from "../../assets/img/portfolio/MySuitBookApp.jpg";
+import Image17 from "../../assets/img/portfolio/DenimShopFilterSlider.jpg";
 
 const PortfolioData = [
   {
@@ -44,22 +48,6 @@ const PortfolioData = [
     ],
   },
   {
-    id: 3,
-    type: "Web Design",
-    image: Image3,
-    tag: ["web design"],
-    delayAnimation: "200",
-    modalDetails: [
-      {
-        project: "Product Gallery Slider",
-        client: "Todd Snyder",
-        language: " HTML, CSS, Shopify",
-        preview: "www.toddsnyder.com",
-        link: "https://www.toddsnyder.com",
-      },
-    ],
-  },
-  {
     id: 4,
     type: "Graphic Design",
     image: Image4,
@@ -69,6 +57,36 @@ const PortfolioData = [
       {
         project: "Logo Design",
         client: "Freelance",
+        program: " Adobe Illustrator",
+      },
+    ],
+  },
+  {
+    id: 16,
+    type: "Web Design",
+    image: Image16,
+    tag: ["web design"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Appointment Contact Form",
+        client: "My.Suit NY",
+        language: " HTML, CSS, ReactJS",
+        preview: "My.Suit Appointment Page",
+        link: "https://www.mysuit.com/appointment",
+      },
+    ],
+  },
+  {
+    id: 10,
+    type: "Graphic Design",
+    image: Image10,
+    tag: ["graphic design"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project: "Logo Design",
+        client: "Ramapo College of NJ",
         program: " Adobe Illustrator",
       },
     ],
@@ -88,6 +106,22 @@ const PortfolioData = [
     ],
   },
   {
+    id: 15,
+    type: "Web Design",
+    image: Image15,
+    tag: ["web design"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Web Design",
+        client: "Todd Snyder",
+        program: "HTML, CSS, Shopify",
+        preview: "View Sperry by Todd Snyder",
+        link: "https://www.toddsnyder.com/pages/sperry-by-todd-snyder-25",
+      },
+    ],
+  },
+  {
     id: 6,
     type: "Graphic Design",
     image: Image6,
@@ -96,7 +130,7 @@ const PortfolioData = [
     modalDetails: [
       {
         project: "Graphic Design",
-        client: "Ramapo College Athletics",
+        client: "Ramapo College of NJ",
         program: "Adobe Photoshop",
         preview: "View on Instagram",
         link: "https://www.instagram.com/p/B4hy-zwna5y/?igsh=MWdwZ2JiYWJibnJzdQ==",
@@ -149,6 +183,22 @@ const PortfolioData = [
     ],
   },
   {
+    id: 17,
+    type: "Web Design",
+    image: Image17,
+    tag: ["web design"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Filterable Slider",
+        client: "Todd Snyder",
+        language: " HTML, CSS, Shopify",
+        preview: "Filterable Slider",
+        link: "https://www.toddsnyder.com/collections/denim-shop",
+      },
+    ],
+  },
+  {
     id: 11,
     type: "graphic design",
     image: Image11,
@@ -190,6 +240,20 @@ const PortfolioData = [
         client: "Freelance",
         program: "Adobe InDesign",
         language: "HTML, CSS, Javascript",
+      },
+    ],
+  },
+  {
+    id: 14,
+    type: "Graphic Design",
+    image: Image14,
+    tag: ["graphic design"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Graphic Design",
+        client: "Freelance Client",
+        program: "Adobe Photoshop",
       },
     ],
   },
