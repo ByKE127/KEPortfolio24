@@ -6,6 +6,7 @@ import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
 import ContextProvider from "../Context/ContextProvider";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
+import Portfolio from "../components/portfolio/Portfolio";
 
 const AllRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const AllRoutes = () => {
           <Route path="/preview" element={<Preview />} />
           <Route path="/" element={<HomeDark />} />
           <Route path="/home-rtl" element={<HomeRtl />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </ContextProvider>

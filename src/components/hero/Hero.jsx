@@ -12,10 +12,9 @@ const heroContent = {
   heroTitleName: "Kevin",
   heroDesignation: "Web/Graphic Designer",
   heroDescriptions: `Passionate designer with a proven track record in building websites that amplify traffic and drive sales through a blend of design and marketing strategies. Possessing a Bachelor's degree in Design & Marketing, I bring a mix of creativity and strategic insight to every project, whether in a freelance or professional setting.`,
-  // heroBtn: "more about me", //
 };
 
-const Hero = () => {
+const Hero = ({ goToPortfolio }) => {
   const [isOpen, setIsOpen] = useState(false);
   function toggleModalOne() {
     setIsOpen(!isOpen);
@@ -30,30 +29,26 @@ const Hero = () => {
             backgroundImage: `url(${backgroundImage})`,
           }}
         ></div>
-        <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
+        <div className="col-12 col-lg-8 offset-lg-4 home-details text-center text-lg-start">
           <div>
             <img
               src={heroContent.heroMobileImage}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
-              alt="hero man"
+              alt="hero"
             />
             <h1 className="text-uppercase poppins-font">
               I'm {heroContent.heroTitleName}.
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
-            {/* MORE ABOUT ME BTN HIDDEN 
-            <button className="button" onClick={toggleModalOne}>
-              <span className="button-text">{heroContent.heroBtn}</span>
+            <button className="button" onClick={goToPortfolio}>
+              <span className="button-text">View Portfolio</span>
               <span className="button-icon fa fa-arrow-right"></span>
             </button>
-            */}
           </div>
         </div>
       </div>
-      {/* End home-details-container */}
 
-      {/* Start Modal for About More */}
       <Modal
         isOpen={isOpen}
         onRequestClose={toggleModalOne}
@@ -66,7 +61,6 @@ const Hero = () => {
           <button className="close-modal" onClick={toggleModalOne}>
             <img src={cancelImg} alt="close icon" />
           </button>
-          {/* End close icon */}
 
           <div className="box_inner about">
             <div data-aos="fade-up" data-aos-duration="1200">
@@ -76,14 +70,11 @@ const Hero = () => {
                 </h1>
                 <span className="title-bg">Resume</span>
               </div>
-              {/* End title */}
               <Index />
             </div>
           </div>
         </div>
-        {/* End modal box news */}
       </Modal>
-      {/* End  Modal for About More */}
     </>
   );
 };

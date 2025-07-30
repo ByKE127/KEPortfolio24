@@ -49,20 +49,6 @@ const PortfolioData = [
     ],
   },
   {
-    id: 4,
-    type: "Graphic Design",
-    image: Image4,
-    tag: ["logo", "graphic design"],
-    delayAnimation: "0",
-    modalDetails: [
-      {
-        project: "Logo Design",
-        client: "Freelance",
-        program: " Adobe Illustrator",
-      },
-    ],
-  },
-  {
     id: 18,
     type: "Web Design",
     image: Image18,
@@ -75,6 +61,20 @@ const PortfolioData = [
         language: " HTML, CSS, Shopify",
         preview: "Fanatics for NHL",
         link: "https://www.toddsnyder.com/collections/todd-snyder-by-fanatics-nhl",
+      },
+    ],
+  },
+  {
+    id: 4,
+    type: "Graphic Design",
+    image: Image4,
+    tag: ["logo", "graphic design"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project: "Logo Design",
+        client: "Freelance",
+        program: " Adobe Illustrator",
       },
     ],
   },
